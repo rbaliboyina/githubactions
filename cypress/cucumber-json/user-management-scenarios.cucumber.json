@@ -1,0 +1,191 @@
+[
+  {
+    "description": "    All user management related test cases developed in this feature file",
+    "keyword": "Feature",
+    "name": "User management related test cases under fleet admin portal",
+    "line": 1,
+    "id": "user-management-related-test-cases-under-fleet-admin-portal",
+    "tags": [],
+    "uri": "user-management-scenarios.feature",
+    "elements": [
+      {
+        "id": "user-management-related-test-cases-under-fleet-admin-portal;view-user-administration",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "View User Administration",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 12
+          },
+          {
+            "name": "@positive",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 4405000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user enter Email in email field",
+            "result": {
+              "status": "passed",
+              "duration": 385000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "user enter Password in password field",
+            "result": {
+              "status": "passed",
+              "duration": 318000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "user click on Sign In button",
+            "result": {
+              "status": "passed",
+              "duration": 98000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user should land in overview page",
+            "result": {
+              "status": "passed",
+              "duration": 2198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "user should able to view User Administration",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-management-related-test-cases-under-fleet-admin-portal;validate-add-new-user-button",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Validate Add New User button",
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 16
+          },
+          {
+            "name": "@positive",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user navigates to login page",
+            "result": {
+              "status": "passed",
+              "duration": 547000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user enter Email in email field",
+            "result": {
+              "status": "passed",
+              "duration": 339000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "user enter Password in password field",
+            "result": {
+              "status": "passed",
+              "duration": 305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "user click on Sign In button",
+            "result": {
+              "status": "passed",
+              "duration": 103000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user should land in overview page",
+            "result": {
+              "status": "passed",
+              "duration": 1441000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "user click on User Management",
+            "result": {
+              "status": "passed",
+              "duration": 298000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "user click on Add New User button in User Management page",
+            "result": {
+              "status": "passed",
+              "duration": 181000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "user should land in User Management page",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+    "testcaseid":"",
+    "testcasetype":"negative",
+    "emailAddress":"bussr1@gmail.com",
+    "password":"newOperator@1",
+    "confirmPassword":"newOperator@1",
+    "operatorName":"bussrtravels",
+    "country":"Singapore"
+}

@@ -1,0 +1,10 @@
+{
+    "timeout":20000,
+    "intervaltimeout":4000,
+    "actionstimeout":10000,
+    "bussr_url":"buss.com",
+    "bussr_reg_url":"https://qa-operator.bussr.app/signup",
+    "fleet_login_url":"https://qa-operator.bussr.app/login",
+    "api_url":"https://dev-api.bussr.app/",
+    "admin_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MWQyYzRiYjk1NzMzMTAwMzNlMjI2ZjkiLCJzY29wZSI6WyJGbGVldCBBZG1pbiJdLCJpYXQiOjE2NDE5NjExNzJ9.et3Jbh_So0ofZG3yVUIOtlFGdZfjxzd6Kd8ZEFd9xN8; operator-code=TOURTRAVELS; new-admin-url=https%3A%2F%2Fqa-operator.bussr.app%2FTOURTRAVELS; operator-region=%7B%22name%22%3A%22India%22%2C%22locale%22%3A%22en-IN%22%2C%22currency%22%3A%22INR%22%2C%22countryCode%22%3A%22IN%22%2C%22paymentGateway%22%3A%22RAPYD%22%2C%22timeZone%22%3A%22Asia%2FKolkata%22%7D; api-url=https%3A%2F%2Fqa-api.bussr.app%2Fapi; admin-bro=Fe26.2**7e46de8cff9003faa59aa04e7b89efad8a7d19a7c01d5cfeac375c3fad0ec37c*V4zZryg9JsRg_lj7ufU2gA*kGLMScaoBibjZKbG0wng_uDQ67L96-HsX8V9ElqryZRDNINm0kJiqCW61vSzG3zaLsUa6woHwMq3gaCLXNRRSzZAdm-YsnL027o3piS-CxL_PMyYLGJs3t4NCpc9sQC9U5z9StXnXhf0escFEEckhUNkrW-mmPb34B-bf0Y2G-YFttXrr7B3o4jicJDQ9BpDUR3dHXZZYG5RdzimXm0ofIpjnIjbQ6iqRfA7JNBHSP5D269mNUfuY2y5oFr6cRdfDDyWs9LeclArRJR2dyZlbuySa_cOBmvJq8Jn9kqMAndHB6OkSU3y95Z0is1yyDnqZpeKrBOOLiKbiunn4Hsy9gVO2kdlERQ3QH3pERLa7b8Q-l_Kcdx2cfu5j66WOjVze24PbS0IuRUtQVfE-w9iHmJPbVessbkwsJHUm_Bv4d8bUv8y9QNZYw7fiLl_bkUh325Gof7haeYj2xWah808en-meht2kGHh9gLzLtbDUlZrHe9btG-Sszr9nqf_g3Y-G9KXAgx_8Frk32t9xWU2Ew**f039c1a5256993f8ab556745438791521abafadb6fbc72b5273bea7abf80d7f3*EO2DPHCvGVVxqADJTREaJVQT_lN7yHb0SVdv-iyj0Dk"
+}

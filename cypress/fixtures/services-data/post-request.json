@@ -1,0 +1,14 @@
+{
+    "login": {
+        "email": "testbussr14@gmail.com",
+        "password": "TourTravel@14"
+    },
+    "test": {
+        "email": "test",
+        "password": "test"
+    },
+    "bus": {
+        "name": "Khammam",
+        "timeZone": "61dbe1289f220300483fe346"
+    }
+}

@@ -1,0 +1,12 @@
+[
+    {
+    "testcaseid":"",
+    "testcasename":"operator registration with dataset1",
+    "testcasetype":"negative",
+    "emailAddress":"bussr1@gmail.com",
+    "password":"newOperator@1",
+    "confirmPassword":"newOperator@1",
+    "operatorName":"charanjitintravels",
+    "country":"Singapore"
+    }
+]
