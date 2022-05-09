@@ -11,8 +11,8 @@ jobs:
       - name: run test scripts
         uses: cypress-io/github-action@v2.9.7
         with:
-          start: npx cypress run
-        continue-on-error: true
+          start: npm run cypress:headless
+          continue-on-error: true
 
       - name: generate the HTML Report
         run: node .//cypress//htmlreport.js
