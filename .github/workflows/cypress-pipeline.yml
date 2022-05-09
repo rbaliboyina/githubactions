@@ -16,16 +16,9 @@ jobs:
 
       - name: generate the HTML Report
         run: node .//cypress//htmlreport.js
-
-      - name: copy reports to public folder
-        run: |
-          mkdir public
-          # cp -r cypress/screenshots public/screenshots
-          # cp -r cypress/videos public/videos
-          cp -r ./reports/ public/report
-
-      - name: Deploy report page
-        uses: peaceiris/actions-gh-pages@v3
+      
+      - name: upload report
+        uses: actions/upload-artifact@v3.0.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          name: cypress-cucumber-report
+          path: ./reports/
