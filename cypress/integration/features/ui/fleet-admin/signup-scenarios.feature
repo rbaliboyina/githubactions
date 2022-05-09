@@ -19,16 +19,16 @@ Feature: Fleet-Admin signup related test cases
             | errormail..def@mail.com  | Email is not valid |
             | .errormail@gmail.com     | Email is not valid |
 
-    @regression @negative
-    Scenario Outline: validating error message for registred email
-        When user enter <registered_email> on Email Address field
-        When User enter password in the password field
-        When User enter operator name in the name field
-        When User click on the start now button
-        Then user should get <error_alert>
-        Examples:
-            | registered_email | error_alert             |
-            | test1@gmail.com  | Email is already in use |
+    # @regression @negative
+    # Scenario Outline: validating error message for registred email
+    #     When user enter <registered_email> on Email Address field
+    #     When User enter password in the password field
+    #     When User enter operator name in the name field
+    #     When User click on the start now button
+    #     Then user should get <error_alert>
+    #     Examples:
+    #         | registered_email | error_alert             |
+    #         | test1@gmail.com  | Email is already in use |
 
 # @regression @negative
 # Scenario: validating error message for valid email on Sign-up page
