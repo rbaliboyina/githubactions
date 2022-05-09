@@ -32,7 +32,7 @@
             "name": "user navigates to login page",
             "result": {
               "status": "passed",
-              "duration": 4405000000
+              "duration": 3116000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "user enter Email in email field",
             "result": {
               "status": "passed",
-              "duration": 385000000
+              "duration": 463000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "user enter Password in password field",
             "result": {
               "status": "passed",
-              "duration": 318000000
+              "duration": 370000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "user click on Sign In button",
             "result": {
               "status": "passed",
-              "duration": 98000000
+              "duration": 124000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "user should land in overview page",
             "result": {
               "status": "passed",
-              "duration": 2198000000
+              "duration": 2628000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "user should able to view User Administration",
             "result": {
               "status": "passed",
-              "duration": 24000000
+              "duration": 32000000
             }
           }
         ]
@@ -111,7 +111,7 @@
             "name": "user navigates to login page",
             "result": {
               "status": "passed",
-              "duration": 547000000
+              "duration": 560000000
             }
           },
           {
@@ -121,7 +121,7 @@
             "name": "user enter Email in email field",
             "result": {
               "status": "passed",
-              "duration": 339000000
+              "duration": 389000000
             }
           },
           {
@@ -131,7 +131,7 @@
             "name": "user enter Password in password field",
             "result": {
               "status": "passed",
-              "duration": 305000000
+              "duration": 330000000
             }
           },
           {
@@ -141,7 +141,7 @@
             "name": "user click on Sign In button",
             "result": {
               "status": "passed",
-              "duration": 103000000
+              "duration": 104000000
             }
           },
           {
@@ -151,7 +151,7 @@
             "name": "user should land in overview page",
             "result": {
               "status": "passed",
-              "duration": 1441000000
+              "duration": 2082000000
             }
           },
           {
@@ -161,7 +161,7 @@
             "name": "user click on User Management",
             "result": {
               "status": "passed",
-              "duration": 298000000
+              "duration": 332000000
             }
           },
           {
@@ -171,7 +171,7 @@
             "name": "user click on Add New User button in User Management page",
             "result": {
               "status": "passed",
-              "duration": 181000000
+              "duration": 298000000
             }
           },
           {
@@ -181,7 +181,7 @@
             "name": "user should land in User Management page",
             "result": {
               "status": "passed",
-              "duration": 34000000
+              "duration": 51000000
             }
           }
         ]

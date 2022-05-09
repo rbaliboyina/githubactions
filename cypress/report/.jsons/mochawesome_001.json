@@ -1,0 +1,126 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-05-09T06:43:45.468Z",
+    "end": "2022-05-09T06:43:59.348Z",
+    "duration": 13880,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "09d1b497-992d-4378-98c5-882767912ae4",
+      "title": "",
+      "fullFile": "cypress/integration/features/ui/fleet-admin/user-management-scenarios.feature",
+      "file": "cypress/integration/features/ui/fleet-admin/user-management-scenarios.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7e7e5bdf-ef46-4d95-aa48-f0d4f932a797",
+          "title": "User management related test cases under fleet admin portal",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "View User Administration",
+              "fullTitle": "User management related test cases under fleet admin portal View User Administration",
+              "timedOut": null,
+              "duration": 6692,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "0ccd48ef-d044-4f80-af0a-2faf4c7103e2",
+              "parentUUID": "7e7e5bdf-ef46-4d95-aa48-f0d4f932a797",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate Add New User button",
+              "fullTitle": "User management related test cases under fleet admin portal Validate Add New User button",
+              "timedOut": null,
+              "duration": 4010,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "a835f5d7-f331-4321-b3f4-127bcc59f38a",
+              "parentUUID": "7e7e5bdf-ef46-4d95-aa48-f0d4f932a797",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0ccd48ef-d044-4f80-af0a-2faf4c7103e2",
+            "a835f5d7-f331-4321-b3f4-127bcc59f38a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 10702,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress\\report\\.jsons",
+        "charts": true,
+        "embeddedScreenshots": true,
+        "overwrite": false,
+        "json": true,
+        "html": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}
