@@ -27,8 +27,8 @@ Feature: Fleet-Admin signup related test cases
         When User click on the start now button
         Then user should get <error_alert>
         Examples:
-            | registered_email | error_alert                 |
-            | test1@gmail.com  | Email is already not in use |
+            | registered_email | error_alert             |
+            | test1@gmail.com  | Email is already in use |
 
 # @regression @negative
 # Scenario: validating error message for valid email on Sign-up page
