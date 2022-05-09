@@ -12,7 +12,7 @@ jobs:
         uses: cypress-io/github-action@v2.9.7
         with:
           start: npm run cypress:headless
-          continue-on-error: true
+        continue-on-error: true
 
       - name: generate the HTML Report
         run: node .//cypress//htmlreport.js
