@@ -4,7 +4,7 @@ var options = {
 
         theme: 'bootstrap',
 
-        jsonFile: 'cypress/cucumber-json/',
+        jsonDir: 'cypress/cucumber-json/',
 
         output: './reports/cucumber-htmlreport.html',
 
