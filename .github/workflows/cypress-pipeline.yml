@@ -5,14 +5,16 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.4.2
+        uses: actions/checkout@v3
       - name: setup npm package
-        run: npm ci
+        run: npm i -g lerna
+      - name: running bootstrap command
+        run: yarn bootstrap
       - name: run test scripts
-        uses: cypress-io/github-action@v2.9.7
+        uses: cypress-io/github-action@v4
         with:
           start: npm run cypress:headless
-        continue-on-error: true
+          continue-on-error: true
 
       - name: generate the HTML Report
         run: node .//cypress//htmlreport.js
