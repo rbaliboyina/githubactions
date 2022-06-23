@@ -1,24 +1,38 @@
 name: cypress tests
-on: [push]
+on:
+  pull_request:
+    branches: [ development ]
+    
 jobs:
   cypress-smoke-run:
-    runs-on: windows-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2.4.2
-      - name: setup npm package
-        run: npm ci
-      - name: run test scripts
-        uses: cypress-io/github-action@v2.9.7
-        with:
-          start: npm run cypress:headless
-        continue-on-error: true
+    runs-on: ubuntu-latest
+  
+strategy:
+      matrix:
+        node-version: [16.x]
 
-      - name: generate the HTML Report
-        run: node .//cypress//htmlreport.js
-      
-      - name: upload report
-        uses: actions/upload-artifact@v3.0.0
-        with:
+steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        
+    - run: npm i -g lerna
+    - run: yarn bootstrap
+
+    - name: run test scripts
+      uses: cypress-io/github-action@v4
+      with:
+        start: npm run ui:test
+        continue-on-error: true
+          
+    - name: generate the HTML Report
+      run: node ./cypress/htmlreport.js
+
+    - name: upload report
+      uses: actions/upload-artifact@v3.0.0
+      with:
           name: cypress-cucumber-report
-          path: ./reports/
+          path: ./cypress/ui-htmlreports/
+Loading complete
