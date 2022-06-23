@@ -16,7 +16,7 @@ jobs:
       with:
        node-version: ${{ matrix.node-version }}    '
       
-    - name: npm package and project setup
+   
     - run: npm i -g lerna
     - run: yarn bootstrap
 
